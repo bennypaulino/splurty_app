@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# allows you to see errors in your Heroku Logs that provide useful information in troubleshooting  
+# rather than the generic error messages that are usually displayed
+gem 'rails_12factor', group: :production
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
