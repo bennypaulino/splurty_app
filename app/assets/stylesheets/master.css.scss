@@ -1,10 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Coda);
+
 .clear {
   clear:both;
 }
 
 .circle {
-    font-weight:bold;
+    font-family: 'Coda', cursive;
+    font-weight: 500;
     font-style: italic;
+    letter-spacing: 1.5px;
     position: relative;
     border-radius: 100%;
     background: #ff8c1a;
@@ -23,7 +27,7 @@
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'Coda', cursive;
   font-style: italic;
   padding-top: 26px;
 }
@@ -36,6 +40,7 @@
   color: #ff8c1a;
   font-size: 25px;
   border-bottom: 1px solid #ccddff;
+  font-family: 'Coda', cursive;
 }
 
 header {
@@ -44,4 +49,12 @@ header {
 
 hr {
   clear: both;
+}
+
+h1 {
+  font-family: 'Coda', cursive;
+}
+
+h2 {
+  font-family: 'Coda', cursive;
 }
