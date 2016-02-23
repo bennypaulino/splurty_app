@@ -17,6 +17,9 @@ gem 'sass-rails'
 gem 'bootstrap-sass', '~> 3.3.5.1'
 
 
+gem 'simple_form'
+
+
 gem 'sprockets', '~> 2.11.0'
 
 # Use Uglifier as compressor for JavaScript assets
@@ -36,6 +39,8 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

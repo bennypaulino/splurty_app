@@ -26,6 +26,10 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
 .slogan {
   font-family: 'Coda', cursive;
   font-style: italic;
