@@ -63,6 +63,16 @@ h2 {
   font-family: 'Coda', cursive;
 }
 
+h3 {
+  font-family: 'Coda', cursive;  
+}
+
+h3 span {
+  font-family: 'Coda', cursive;
+  color: #B5B2A5;
+  font-style: italic;
+}
+
 .next-quote {
   color: #f84342;
   font-family: 'Coda', cursive;
@@ -79,4 +89,18 @@ h2 {
 
 .about {
   font-family: 'Coda', cursive;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: 'Coda', cursive;
+}
+
+::selection {
+  background-color: #ff8c1a;
 }
